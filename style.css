@@ -1,0 +1,93 @@
+.foto {
+    width: 25%;
+    height: 25%;
+    border: 3px dotted #BF8F30;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.spisok {
+    font-size: 30px;
+    display: flex;
+
+}
+
+h1 {
+    color: #BF8F30;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: #BF8F30;
+
+
+    
+}
+
+.button_f {
+    text-decoration: none;
+    border: 3px solid #BF8F30;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    justify-content: center;
+    width: 15%;
+    color: black;
+    background-color: #BF8F30;
+
+}
+
+.mes {
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    justify-content: center;
+    width: 5%;
+    color: black;
+    background-color: #BF8F30;
+    text-align: center;
+}
+
+#image {
+    width: 20%;
+    height: 30%;
+    display: block;
+    margin-left: 10px;
+}
+
+.btnmain {
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: black;
+    border: 3px dotted #BF8F30;
+    color: #BF8F30;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ball {
+    font-size: 30px;
+}
+
+footer {
+    border-top: 3px double #BF8F30;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #BF8F30;
+    background-color: black;
+}
