@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ксения Александровна</title>
+  </head>
+  <body>
+    <!-- <script src="script.js"></script> -->
+    <header>
+
+    </header>
+    <main>
+        <h1>Самая прекрасная девушка</h1>
+        <!-- <img class="foto" src="https://github.com/prohorovaaaa/frontend/blob/main/src/C2.jpg?raw=true">
+    -->
+    <!--
+        <div class="spisok">
+        <p>Почему же она самая прекрасная?</p> </br>
+        
+        <ol>
+          <li>Добрая</li>
+          <li>Красивая</li>
+          <li>Сообразительная</li>
+        </ol>
+      </div>
+    -->
+      <div class="imag">
+        <img id=image src="https://sun9-33.userapi.com/impg/qPMAhEmCVIAYFEBYLpeVL7a3LUEKoxhxj-lygw/18e3fSVCtAs.jpg?size=720x1080&quality=95&sign=d0f6e3a023c67ae34ca7846629056bf4&type=album">
+        <input class='answer1' type="text" placeholder='Какой у меня цвет глаз?' >
+
+
+
+        <img id=image src="https://sun1-89.userapi.com/impg/9imoigSJWcaZQyptJmYoWFBaWMbwnjRjrIsDMQ/2rnwcGPOtgc.jpg?size=720x1080&quality=95&sign=966d3b55394179b9e16b36bdd8d4278c&type=album">
+        <input class='answer2'  placeholder='Сколько мне лет?' >
+ 
+
+        <img id=image src="https://sun1-20.userapi.com/impg/pgl09ot6Nu8_COr2C0O3nvEpXtZKsFEEsE0ASg/eW0heyZj7FY.jpg?size=720x1080&quality=95&sign=2c960f55c2fadc50ff3bf8ce8733759e&type=album">
+        <input class='answer3'  placeholder='А я ясные дни оставляю ...' >        
+      
+
+
+        
+        <p class="ball">Результат:</p>
+      </div>
+
+
+      <div class='btnmain'>ОТПРАВИТЬ</div>
+
+ 
+
+
+
+
+        <!-- <p><i>Дальше список можно продолжать бесконечно, поэтому нажимайте на кнопку, чтобы полюбоваться</i></p>
+        <a class="button_f" href="index2.html"><b>Ксюшенька</b></a>
+        -->
+        <script>
+
+          function proba() {
+              console.log('Привет')
+          }
+          
+
+          document.querySelector('.btnmain').addEventListener('click', ()=> {
+              let score = 0
+
+              let a =  document.querySelector('.answer1').value;
+              if (a == 'голубой') {
+                score += 1
+              }
+              
+              let b =  document.querySelector('.answer2').value;
+              if (b == '25') {
+                score += 1
+              }
+              
+              let c =  document.querySelector('.answer3').value;
+              if (c == 'себе') {
+                score += 1
+              }
+              
+              console.log(a);
+              document.querySelector('.ball').innerHTML = 'Результат: ' + score + ' из 3';
+          })
+
+        </script>
+    </main>
+    <footer>
+        <!-- <p>Пишите, не стесняйтесь</p> -->
+        <a class="mes" href="https://vk.com/kprohorovaaa">VK</a>
+    </footer>
+  </body>
+</html>
